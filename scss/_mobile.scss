@@ -1,0 +1,20 @@
+@include mediaXl {
+  section {
+    .content {
+      flex-direction: row;
+    }
+  }
+}
+
+@include mediaLg {
+}
+
+@include mediaMg {
+}
+
+@include mediaSm {
+  section {
+    margin: 1rem;
+    background-color: #ddd;
+  }
+}
